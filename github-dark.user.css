@@ -955,6 +955,10 @@
         border-color: var(--border-color);
     }
 
+    .tabnav-tab {
+        color: var(--secondary-text-color);
+    }
+
     .tabnav-tab.selected {
         color: var(--primary-text-color);
         border-color: var(--border-color);
@@ -962,6 +966,12 @@
     }
   
     .tabnav-tab.selected, .tabnav-tab[aria-selected="true"] {
+      background-color: var(--body-color);
+      color: var(--primary-text-color);
+      border-color: var(--border-color);
+    }
+  
+    .tabnav-tab.selected, .tabnav-tab[aria-current]:not([aria-current="false"]), .tabnav-tab[aria-selected="true"] {
       background-color: var(--body-color);
       color: var(--primary-text-color);
       border-color: var(--border-color);
@@ -1283,7 +1293,7 @@
     }
 
     .pr-toolbar {
-        background-color: var(--body-color);
+        background-color: var(--body-color) !important;
     }
 
     .range-editor {
@@ -1675,6 +1685,7 @@
 
     .menu-item {
         text-shadow: none;
+        color: var(--secondary-text-color);
         border-bottom: 1px solid var(--border-color);
     }
 
@@ -1769,7 +1780,7 @@
     }
 
     .UnderlineNav-item.selected {
-        color: var(--primary-text-color);
+        color: var(--primary-text-color) !important;
     }
 
     .UnderlineNav-item:hover {
@@ -2671,5 +2682,29 @@
     div.application-main > div.border-bottom,
     div.application-main div.container-xl > div.position-relative div[style] {
         background: var(--body-color) !important;
+    }
+    
+    /** Repo Security Tab **/
+    
+    .SideNav-item {
+        background-color: var(--body-color);
+        color: var(--secondary-text-color);
+        border-top: 1px solid var(--border-color);
+    }
+        
+    .SideNav-item:hover {
+        background-color: var(--depth-color);
+    }
+        
+    .SideNav-item.selected {
+        background-color: var(--depth-color) !important;
+        color: var(--primary-text-color);
+    }
+    
+    /** Repo Graph | Network **/
+    
+    canvas{
+        background-color: var(--color-bg-canvas);
+        color: var(--color-text-primary);
     }
 }
