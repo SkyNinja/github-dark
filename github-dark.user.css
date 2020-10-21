@@ -1677,6 +1677,25 @@
     .graphs .dir {
         color: #9e9e9e;
     }
+    
+    /* Repo Forks */
+    
+    img[src="https://github.githubassets.com/images/modules/network/t.png"] {
+    	height: 0 !important;
+    	width: 0 !important;
+    	/* these numbers match the new image's dimensions */
+    	padding-left: 20px !important;
+	    padding-top: 26px !important;
+	    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAAMElEQVRIx2OUUjP6z0BFwESMIrfwSKINZBx14agLR1046F1IDD0ahqMuHHXh8HAhAJXnJDFMg2TkAAAAAElFTkSuQmCC) no-repeat !important;
+    }
+    img[src="https://github.githubassets.com/images/modules/network/l.png"] {
+    	height: 0 !important;
+    	width: 0 !important;
+    	/* these numbers match the new image's dimensions */
+    	padding-left: 20px !important;
+	    padding-top: 26px !important;
+	    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAAMklEQVRIx2OUUjP6z0BFwESMIrfwSKINZBx14agLR1046F1IDD0wLhw1cNTAUQOpbSAA8akXPVD5q9sAAAAASUVORK5CYII=) no-repeat !important;
+    }
 
     /* Repo Settings Tab */
 
