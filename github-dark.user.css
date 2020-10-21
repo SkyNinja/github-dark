@@ -1131,6 +1131,11 @@
         border-bottom: 18px solid var(--body-color);
     }
 
+    .timeline-comment.current-user .previewable-comment-form .comment-form-head.tabnav {
+        background: var(--accent-color);
+        border-bottom-color: var(--border-color);
+    }
+
     .discussion-item .renamed-was,
     .discussion-item .renamed-is {
         color: #ccc;
